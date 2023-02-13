@@ -1,6 +1,7 @@
 # Summary of Project
-- Data given is from the M6 Financial Forecasting Competition
-- 
+- Data used is from the M6 Financial Forecasting Competition
+- The aim of this project is to predict the bucket of rankings for the next nine weeks. Rank 1 is the lowest forecasted percentage return while Rank 5 is the highest. Based on this prediction, we will decide whether to long or short each of the 100 equities.
+- Note that some of the data was cleaned for us at the start.
 
 # Project Details
 ## 1. General
@@ -11,7 +12,7 @@ As shown in the Figure below, the source code is saved into three R files: (1) 1
 Workflow Steps | Output
 --- | ---
 Feature Engineering (1_feature_engineering.R) | “engineered_data.RData”: the cleaned and feature engineered data
-Modelling (2_modelling.R)	 | 30“all_models.RData”: the chosen models to be stacked1 
+Modelling (2_modelling.R)	 | “all_models.RData”: the chosen models to be stacked1 
 Stacking (3_stacking.R)	 | “investment_decision.csv”: the output csv containing the investment decision. A seed was set for the stacking file at 123 to reproduce the final results. 
 
 To reproduce the stacking results, it is only necessary to run the stacking file.
