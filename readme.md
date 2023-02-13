@@ -8,9 +8,7 @@ Specs: 8 Gb Ram
 
 As shown in the Figure below, the source code is saved into three R files: (1) 1_feature_engineering, (2) 2_modelling and (3) 3_stacking. For each of the R files, the final output is saved for use in the next step.
 
-Workflow
-
-Steps | Output
+Workflow Steps | Output
 --- | ---
 Feature Engineering (1_feature_engineering.R) | “engineered_data.RData”: the cleaned and feature engineered data
 Modelling (2_modelling.R)	 | 30“all_models.RData”: the chosen models to be stacked1 
@@ -62,10 +60,11 @@ Eventually, the models CatBoost, LightGBM and Random Forest were selected to be 
  
 
 4.4 Output Generation Time
-Model	Time 
-CatBoost	1 hour
-LightGBM 	1 hour
-Random Forest	5 minutes
+Model	| Time 
+--- | ---
+CatBoost | 1 hour
+LightGBM | 1 hour
+Random Forest	| 5 minutes
 
 5. Submission Generation
 - Run 3_stacking.R.  Note that the model tuning step does not need to be run again as results can be loaded in line 111 from cat_res_5cv.RData, lgbm_res_5cv.RData and rf_res_5cv.RData. 
@@ -84,4 +83,3 @@ This section contains the other modelling approaches which are not selected for 
 
 6.2 Multinomial Regression
 - Trial and error with both the parameters were conducted to get a sense of what range to input before setting the tuning range again.
-![image](https://user-images.githubusercontent.com/69724535/218401611-15b5769a-1fb0-4bb2-bfe5-4275627039e4.png)
