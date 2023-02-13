@@ -2,25 +2,24 @@
 - Data given is from the M6 Financial Forecasting Competition
 - 
 
-
+**Porject Details**
 1. General
 Specs: 8 Gb Ram
 
 As shown in the Figure below, the source code is saved into three R files: (1) 1_feature_engineering, (2) 2_modelling and (3) 3_stacking. For each of the R files, the final output is saved for use in the next step.
 
 Workflow
-Steps	Output
-Feature Engineering
-(1_feature_engineering.R)	“engineered_data.RData”: the cleaned and feature engineered data
-Modelling
-(2_modelling.R)	“all_models.RData”: the chosen models to be stacked
-Stacking
-(3_stacking.R)	“investment_decision.csv”: the output csv containing the investment decision
-- A seed was set for the stacking file at 123 to reproduce the final results.
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+Steps | Output
+--- | ---
+Feature Engineering
+(1_feature_engineering.R) | “engineered_data.RData”: the cleaned and feature engineered data
+--- | ---
+Modelling 
+(2_modelling.R)	 | 30“all_models.RData”: the chosen models to be stacked1 
+--- | ---
+Stacking
+(3_stacking.R)	 | “investment_decision.csv”: the output csv containing the investment decision. A seed was set for the stacking file at 123 to reproduce the final results. 
 
 To reproduce the stacking results, it is only necessary to run the stacking file.
 
