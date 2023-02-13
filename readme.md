@@ -12,14 +12,9 @@ Workflow
 
 Steps | Output
 --- | ---
-Feature Engineering
-(1_feature_engineering.R) | “engineered_data.RData”: the cleaned and feature engineered data
---- | ---
-Modelling 
-(2_modelling.R)	 | 30“all_models.RData”: the chosen models to be stacked1 
---- | ---
-Stacking
-(3_stacking.R)	 | “investment_decision.csv”: the output csv containing the investment decision. A seed was set for the stacking file at 123 to reproduce the final results. 
+Feature Engineering (1_feature_engineering.R) | “engineered_data.RData”: the cleaned and feature engineered data
+Modelling (2_modelling.R)	 | 30“all_models.RData”: the chosen models to be stacked1 
+Stacking (3_stacking.R)	 | “investment_decision.csv”: the output csv containing the investment decision. A seed was set for the stacking file at 123 to reproduce the final results. 
 
 To reproduce the stacking results, it is only necessary to run the stacking file.
 
