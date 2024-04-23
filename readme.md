@@ -3,7 +3,7 @@
 # Summary of Project
 - Data used is from the M6 Financial Forecasting Competition
 - The aim of this project is to predict the bucket of rankings for the next nine weeks. Rank 1 is the lowest forecasted percentage return while Rank 5 is the highest. Based on this prediction, we will decide whether to long or short each of the 100 equities.
-- Side notes: (1) Some of the data was cleaned for us at the start, (2) this was a pair work but both of us was fully invested in and contributed to this project.
+- Side notes: (1) Some of the data was cleaned for us at the start, (2) this was a pair work which both of us was fully invested in and contributed to this project.
 
 # Project Details
 ## 1. General
